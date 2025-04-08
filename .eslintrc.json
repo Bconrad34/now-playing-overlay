@@ -1,0 +1,17 @@
+{
+    "extends": [
+      "next/core-web-vitals",
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended"
+    ],
+    "rules": {
+      // Temporarily disable some rules during development
+      "@typescript-eslint/no-explicit-any": "warn",
+      "@typescript-eslint/ban-ts-comment": "warn",
+      "react-hooks/exhaustive-deps": "warn",
+      // Disable the next/image rule if you absolutely need to use <img> in some cases
+      "@next/next/no-img-element": "warn",
+      // Disable the quotes rule if you're having issues with it
+      "react/no-unescaped-entities": "off"
+    }
+  }

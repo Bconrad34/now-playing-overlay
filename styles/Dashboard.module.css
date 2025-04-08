@@ -1,0 +1,180 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .spotifyButton {
+    background-color: #1DB954;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .spotifyButton:hover {
+    background-color: #1ed760;
+  }
+  
+  .previewSection {
+    margin: 30px 0;
+  }
+  
+  .previewBox {
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+  .themeSection {
+    margin: 30px 0;
+  }
+  
+  .themeGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+  }
+  
+  .themeCard {
+    border: 2px solid #eee;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s;
+    position: relative;
+  }
+  
+  .themeCard:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .selectedTheme {
+    border-color: #1DB954;
+    background-color: rgba(29, 185, 84, 0.1);
+  }
+  
+  .themePreview {
+    height: 60px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+  
+  .themePreview[data-theme="dark"] {
+    background-color: #1e1e1e;
+  }
+  
+  .themePreview[data-theme="light"] {
+    background-color: #f0f0f0;
+  }
+  
+  .themePreview[data-theme="neon"] {
+    background-color: #14141e;
+    box-shadow: 0 0 10px #00ffff;
+    border: 1px solid #00ffff;
+  }
+  
+  .themePreview[data-theme="synthwave"] {
+    background: linear-gradient(135deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);
+  }
+  
+  .themePreview[data-theme="minimal"] {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .themePreview[data-theme="retro"] {
+    background-color: #222;
+    border: 1px solid #33ff33;
+    box-shadow: 0 0 10px rgba(51, 255, 51, 0.5);
+  }
+  
+  .themePreview[data-theme="glitch"] {
+    background-color: #000;
+    box-shadow: 0 0 5px #f0f, 0 0 10px #0ff;
+    position: relative;
+  }
+  
+  .premiumTheme {
+    opacity: 0.7;
+  }
+  
+  .premiumBadge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: #f1c40f;
+    color: #333;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px 6px;
+    border-radius: 10px;
+  }
+  
+  .premiumMessage {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #FFF4D9;
+    border-radius: 8px;
+    border-left: 4px solid #f1c40f;
+  }
+  
+  .upgradeButton {
+    background-color: #f1c40f;
+    color: #333;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .integrationSection {
+    margin: 30px 0;
+  }
+  
+  .urlBox {
+    background-color: #f5f5f5;
+    padding: 12px;
+    border-radius: 4px;
+    font-family: monospace;
+    margin: 10px 0;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  .copyButton {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .instructionsBox {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+  }
+  
+  .instructionsBox h3 {
+    margin-top: 0;
+  }
+  
+  .instructionsBox ol {
+    padding-left: 20px;
+  }
