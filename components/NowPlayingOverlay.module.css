@@ -1,0 +1,82 @@
+.overlay {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border-radius: 8px;
+  width: fit-content;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.albumArt {
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.trackInfo {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.artist {
+  font-size: 14px;
+  opacity: 0.8;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Theme styles */
+.darkTheme {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.lightTheme {
+  background-color: #ffffff;
+  color: #333333;
+  border: 1px solid #eeeeee;
+}
+
+.neonTheme {
+  background-color: #0f0f25;
+  color: #00ff99;
+  border: 2px solid #00ff99;
+  box-shadow: 0 0 10px #00ff99;
+}
+
+.synthwaveTheme {
+  background: linear-gradient(45deg, #fc28a8, #03edf9);
+  color: white;
+}
+
+.minimalTheme {
+  background-color: transparent;
+  color: #ffffff;
+  padding: 0;
+  box-shadow: none;
+}
+
+.retroTheme {
+  background-color: #222034;
+  color: #f7d51d;
+  border: 2px solid #f7d51d;
+  font-family: 'Courier New', monospace;
+}
+
+.glitchTheme {
+  background-color: #111111;
+  color: #ffffff;
+  border: 1px solid #ff00ff;
+  box-shadow: 0 0 5px #ff00ff, 0 0 10px rgba(255, 0, 255, 0.5);
+}

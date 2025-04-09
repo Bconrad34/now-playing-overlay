@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "clean": "./scripts/clean-mac-files.sh"
   },
   "dependencies": {
     "@auth0/nextjs-auth0": "^4.4.1",

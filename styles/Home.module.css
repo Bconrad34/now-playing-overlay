@@ -44,6 +44,7 @@
   width: 30%;
   min-width: 250px;
   margin-bottom: 1.5rem;
+  color: #333; /* Darker text color for better contrast */
 }
 
 .feature h3 {
@@ -88,6 +89,7 @@
   padding: 2rem;
   width: 250px;
   text-align: center;
+  color: #333; /* Darker text color for better contrast */
 }
 
 .price {
